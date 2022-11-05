@@ -53,6 +53,7 @@ function toggleGirdLines() {
 }
 
 function reloadGrid(newSize) {
+  updateCurrentSize(newSize);
   setCurrentSize(newSize);
   clearGrid();
   setupGrid(currentSize);
